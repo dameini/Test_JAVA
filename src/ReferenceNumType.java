@@ -1,3 +1,5 @@
+import Test_Package.classs;
+
 public class ReferenceNumType {
     public static void main(String[] args) {
         // TODO 类是对象的模板，对象是类的实例
@@ -23,7 +25,8 @@ public class ReferenceNumType {
         System.out.println(sanwei[0][1].length);
         // TODO 引用的缺省值null
         if (c1.id == null)
-            System.out.println("ss");
+            c1.name = "dd";
+            System.out.println(c1.name);
         for (int x:
              shuzu) {
             System.out.println(x);
